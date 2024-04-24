@@ -1,5 +1,17 @@
-# exclude python cache files
+# exclude cache files
 *.pyc
+*.npy
+*checkpoint*
 
-# exclude the data files
+# exclude the data and model files
 *.csv
+*.pickle
+*.pkl
+skipgrams.txt
+.DS_Store
+
+# exclude the glove file
+glove.twitter.27B.200d.txt
+
+# exclude the result file
+*.html
