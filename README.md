@@ -9,7 +9,7 @@ This project is to build topic modeling with Lda2Vec and Tensorflow. The topic m
 ## 2. Folder Structure
 
 - The lda2vec folder stores the reference code for the Lda2Vec model with Tensorflow.
-- The data folder stores the input data (a CSV file), and the processed data (a .pkl file) for the model.
+- The data folder stores the input data (a CSV file), and the final result data (a .pkl file) of the model.
 - The glove folder stores the glove pretrained word vectors based on tweeter data.
-- The lda2vec_clean folder stores the cleaned data after applying the glove vectors and basic statistics operations.
+- The lda2vec_clean folder stores the cleaned data after applying the glove vectors and basic statistics operations. It can then be processed by the Lda2Vec model.
 - In the root dir, the language_modeling_lda2vec_tensorflow.ipynb file is a end-to-end topic modeling process from data preprocessing to the final visualization.
