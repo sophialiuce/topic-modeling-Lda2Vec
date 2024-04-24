@@ -1,0 +1,5 @@
+# exclude python cache files
+*.pyc
+
+# exclude the data files
+*.csv
